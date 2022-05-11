@@ -612,7 +612,7 @@ footer .social-links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 60%;
+    width: 66%;
   }
 
   nav#navigation .menu ul:nth-child(1) {
@@ -642,8 +642,8 @@ footer .social-links {
   }
 
   nav#navigation.scroll .menu ul li a {
-    color: var(--BgColor);
-    opacity: 0.6;
+    color: white;
+    opacity: 0.8;
   }
 
   nav#navigation.scroll .menu a.button {
