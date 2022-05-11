@@ -271,6 +271,7 @@ body.menu-expended .menu {
   margin-inline: auto;
   object-position: 0 2rem;
   width: 26.4rem;
+  opacity: 0.8;
 }
 
 #home .stats {
@@ -406,6 +407,7 @@ body.menu-expended button svg path {
   border-radius: 0.5rem;
   margin-top: 1rem;
   
+  
 }
 
 
@@ -462,6 +464,7 @@ body.menu-expended button svg path {
 #about img {
   border-radius: 0.5rem;
   width: 100%;
+  opacity: 0.8;
 }
 
 
