@@ -11,6 +11,7 @@ function onScroll(){
   activateMenu(home)
   activateMenu(services)
   activateMenu(about)
+  activateMenu(skills)
   activateMenu(contact)
 
 
@@ -93,4 +94,8 @@ ScrollReveal({
 #services .card,
 #about,
 #about header,
-#about content`);
+#about content,
+#skills,
+#skills content,
+#contact,
+#contact content`);
