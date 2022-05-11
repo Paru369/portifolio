@@ -311,6 +311,7 @@ body.menu-expended .menu {
   width: 300px;
   border-radius: 0.5rem;
  margin-top: 1rem;
+ object-fit: cover;
  
 }
 
@@ -404,6 +405,7 @@ body.menu-expended button svg path {
   width: 500px;
   border-radius: 0.5rem;
   margin-top: 1rem;
+  
 }
 
 
@@ -768,9 +770,25 @@ footer .social-links {
   }
 
   #services .card {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     flex-grow: 1;
-    color: white
+    color: white;
+  }
+
+  .card a img {
+    width: 32rem;
+    height: 20rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: auto;
+    object-fit: cover;
+    
+    
+    
+    
+    
   }
 
   /* SKILSS  ######################################################## */
