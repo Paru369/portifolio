@@ -884,14 +884,14 @@ footer .social-links {
   }
 
   footer .wrapper {
-    grid-template-columns: 1fr 57.5rem;
+    grid-template-columns: 1fr 37.5rem;
     grid-template-areas: 'A B';
   }
 
   footer p {
     margin-bottom: 0;
     color: white;
-    font-size: 5 rem;
+    font-size: 7 rem;
   }
 
   footer .col-a {
@@ -904,7 +904,7 @@ footer .social-links {
   }
 
   footer {
-  background-color: var(--primary-color);
+  background-color: var(--BgColor);
   padding-block: 2rem;
   text-align: left;
   color: white;
@@ -916,7 +916,7 @@ footer .logo {
 }
 
 footer .logo path {
-  fill: white;
+  fill: #505050;
 }
 
 footer .logo svg {
@@ -925,7 +925,7 @@ footer .logo svg {
 }
 
 footer p {
-  color: white;
+  color: #404040;
   line-height: 1;
   margin-bottom: 0.2rem;
   font-size: 2rem;
@@ -936,6 +936,8 @@ footer .social-links {
   justify-content: flex-start;
   margin-right: 2rem;
 }
+
+
 
 
 }
