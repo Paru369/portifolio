@@ -13,9 +13,9 @@
 
 
   --fc-secundarywithe: hsla(0, 0%, 100%, 1);
-  --brand-bege: rgb(38, 40, 41);
-  --green-light: hsla(calc(var(--hue) - 22), 10%, 5%, 1);
-  --green-light2: hsla(calc(var(--hue) + 10), 14%, 51%, 1);
+  --brand: rgb(38, 40, 41);
+  --color-light: hsla(calc(var(--hue) - 22), 10%, 5%, 1);
+  --color-light2: hsla(calc(var(--hue) + 10), 14%, 51%, 1);
 
   --bg-light: rgb(30, 32, 32);
   --brand-dark: hsla(var(--hue), 100%, 14%, 1);
@@ -26,30 +26,7 @@
 
 }
 
-.yelow {
-  --primaryColor: #fec107;
-  --primaryHover: #ce9f3c;
-  --whiteColor: #fff;
-  --profileBgColor: #2e2e38c0;
-  --BgColor: #1e1e28;
-  --blackLine: rgb(24, 24, 29);
-  --projectCardColor: #31313d;
-}
 
-/* ::-webkit-scrollbar {
-  display: none;
-}
-
-::-webkit-scrollbar {
-  background: red;
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: red;
-  width: 100%;
-  border-radius: 3rem;
-} */
 
 /* width */
 ::-webkit-scrollbar {
@@ -175,10 +152,10 @@ section .content p {
   fill: var(--primary-color);
 }
 
-/* button.open-menu path[stroke*='#00856F'],
+button.open-menu path[stroke*='#00856F'],
 #contact li path {
   stroke: var(--primary-color);
-} */
+}
 
 body.menu-expended #navigation .logo path,
 #navigation.scroll logo path {
@@ -275,7 +252,7 @@ body.menu-expended .menu {
   content: '';
   width: 100%;
   height: calc(108rem);
-  background-color: var(--green-light);
+  background-color: var(--color-light);
   display: block;
   position: absolute;
   top: 0;
@@ -314,7 +291,7 @@ body.menu-expended .menu {
   padding-block: 4rem;
   margin-inline: auto;
 
-  background-color: var(--brand-bege);
+  background-color: var(--brand);
 
   display: flex;
   flex-direction: column;
@@ -426,8 +403,8 @@ body.menu-expended button svg path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: var(--green-light);
-  border: 1px solid var(--green-light);
+  background: var(--color-light);
+  border: 1px solid var(--color-light);
   border-radius: 0.6rem;
   
 }
@@ -472,8 +449,8 @@ body.menu-expended button svg path {
 #skills .card {
   padding: 2.4rem;
   text-align: left;
-  background: var(--green-light);
-  border: 1px solid var(--green-light);
+  background: var(--color-light);
+  border: 1px solid var(--color-light);
   border-radius: 0.6rem;
 }
 
@@ -485,7 +462,7 @@ body.menu-expended button svg path {
 
 #about {
   text-align: left;
-  background-color: var(--brand-bege);
+  background-color: var(--brand);
 }
 
 #about header h2 {
@@ -782,7 +759,7 @@ footer .social-links {
   }
 
   #home .stats .stat + .stat {
-    border-left: 1px solid var(--green-light);
+    border-left: 1px solid var(--color-light);
   }
 
   #home .stats .stat {
