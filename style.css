@@ -411,6 +411,8 @@ body.menu-expended button svg path {
 
 #services header h2 {
   margin-bottom: 6rem;
+ 
+  
 }
 
 
@@ -434,6 +436,8 @@ body.menu-expended button svg path {
   margin-block: 1.6rem;
   color:#ffffff;
   text-align: center;
+  
+
 }
 
 .card a img {
@@ -796,7 +800,7 @@ footer .social-links {
   /* SERVICE  ######################################################## */
 
   #services h2 {
-    width: 49rem;
+    
     margin-inline: auto;
   }
 
