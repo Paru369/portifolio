@@ -189,7 +189,7 @@ body.menu-expended #navigation .logo path,
   fill: white;
 }
 
-#navigation.scroll button.open-menu path[stroke*='#00856F'] {
+#navigation.scroll button.open-menu path[stroke*='#fec107'] {
   stroke: white;
 }
 
